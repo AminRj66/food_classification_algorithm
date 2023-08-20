@@ -1,0 +1,18 @@
+# Experiment parameters
+phase: "test"     # "train", "test"
+device: "cpu"
+
+# Train and test paths
+train_dir: "data/train"
+test_dir: "data/test"
+
+# Pre-saved model path and name
+saved_models_dir: "saved_models"
+model_name: "model_1692528793.hdf5"
+
+# Model training parameters
+validation_split: 0.2
+target_size: [224, 224]
+batch_size: 8
+learning_rate: 0.001
+epochs: 10
